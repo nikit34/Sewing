@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sewing</title>
+  <link href="index.css" rel="stylesheet" type="text/css">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+  <link rel="stylesheet" href="CSS/main.css">
+</head>
+
+<body>
+
+  <!-- навбар-->
+  <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+    <div class="container-fluid">
+      <a href="#" class="navbar-brad"><img src="img/navbar.png"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a href="#" class="nav-link">Главная</a>
+          </li>
+          <li class="nav-item">
+            <a href="archive.html" class="nav-link">Архив</a>
+          <li class="nav-item">
+            <a href="#contacts" class="nav-link">Контакты</a>
+
+          </li>
+          <li class="nav-item">
+            <a href="price.html" class="nav-link">Прайс-лист</a>
+          </li>
+          <li class="nav-item">
+            <a href="#aboutme" class="nav-link">Про меня</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- слайдер-->
+  <div id="slides" class="carousel slide" data-ride="carousel">
+    <ul class="carousel-indicators">
+      <li data-target="#slides" data-slide-to="0" class="active"></li>
+      <li data-target="#slides" data-slide-to="1"></li>
+      <li data-target="#slides" data-slide-to="2"></li>
+      <li data-target="#slides" data-slide-to="3"></li>
+      <li data-target="#slides" data-slide-to="4"></li>
+      <li data-target="#slides" data-slide-to="5"></li>
+    </ul>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="img/1.jpg">
+        <div class="carousel-caption">
+          <h1 class="display-2">Ольга Пермякова</h1>
+          <h3>Научитесь заниматься любимым делом!</h3>
+          <button type="button" class="btn btn-outline-light btn-lg" data-toggle="collapse" onClick='location.href="archive.html"'>Посмотреть</button>
+          <button type="button" class="btn btn-outline btn-lg" data-toggle="collapse" onClick='location.href="price.html"'>Заказать</button>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="img/2.jpg">
+        <div class="carousel-caption">
+          <h1 class="display-2"><br /></h1>
+          <h3><br /><br />02.2018</h3>
+          <button type="button" class="btn btn-outline-light btn-lg" data-toggle="collapse" onClick='location.href="archive.html"'>Посмотреть</button>
+          <button type="button" class="btn btn-outline btn-lg" data-toggle="collapse" onClick='location.href="price.html"'>Заказать</button>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="img/3.jpg">
+        <div class="carousel-caption">
+          <h1 class="display-2"><br /></h1>
+          <h3><br /><br />03.2018</h3>
+          <button type="button" class="btn btn-outline-light btn-lg" data-toggle="collapse" onClick='location.href="archive.html"'>Посмотреть</button>
+          <button type="button" class="btn btn-outline btn-lg" data-toggle="collapse" onClick='location.href="price.html"'>Заказать</button>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="img/4.jpg">
+        <div class="carousel-caption">
+          <h1 class="display-2"><br /></h1>
+          <h3><br /><br />05.2018</h3>
+          <button type="button" class="btn btn-outline-light btn-lg" data-toggle="collapse" onClick='location.href="archive.html"'>Посмотреть</button>
+          <button type="button" class="btn btn-outline btn-lg" data-toggle="collapse" onClick='location.href="price.html"'>Заказать</button>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="img/5.jpg">
+        <div class="carousel-caption">
+          <h1 class="display-2"><br /></h1>
+          <h3><br /><br />06.2018</h3>
+          <button type="button" class="btn btn-outline-light btn-lg" data-toggle="collapse" onClick='location.href="archive.html"'>Посмотреть</button>
+          <button type="button" class="btn btn-outline btn-lg" data-toggle="collapse" onClick='location.href="price.html"'>Заказать</button>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="img/6.jpg">
+        <div class="carousel-caption">
+          <h1 class="display-2"><br /></h1>
+          <h3><br /><br />09.2018</h3>
+          <button type="button" class="btn btn-outline-light btn-lg" data-toggle="collapse" onClick='location.href="archive.html"'>Посмотреть</button>
+          <button type="button" class="btn btn-outline btn-lg" data-toggle="collapse" onClick='location.href="price.html"'>Заказать</button>
+        </div>
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#slides" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#slides" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+  <!-- обновления-->
+  <div class="container-fluid">
+    <div class="row jumbotron">
+      <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 col-xl-10">
+        <p class="lead">
+          0.2) 23.02 - платье №54 <br />
+          0.5) 22.02 - платье №53
+        </p>
+        <div id="hide-me" class="collapse in">
+          <p>
+            1)
+            <br />
+            2)
+            <br />
+            .
+            <br />
+            .
+            <br />
+            .
+            <br />
+            n)
+          </p>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-2">
+          <button class="btn btn-info" data-toggle="collapse" data-target="#hide-me">
+            Читать далее...</button>
+        </div>
+      </div>
+    </div>
+    <!-- о себе-->
+    <div class="container-fluid">
+      <div class="row text-center alert">
+        <div class="col-12">
+          <h1 id="aboutme" class="display-4 text-danger">О себе</h1>
+        </div>
+        <hr>
+        <div class="col-12">
+          <p class="lead">
+            1111111111111111111111112222222резюме222222222222233333333333333333
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- контент-->
+    <div class="container-fluid padding">
+      <div class="row text-center padding">
+        <div class="col-xs-12 col-sm-6 col-md-4">
+          <i class="fas fa-cut"></i>
+          <br />
+          <iframe width="280" height="200" src="https://www.youtube.com/embed/videoseries?list=PLRRzL3ynAO6w8DcZb2P0XCJntQkOTOc2W" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+          <h3 class="text-danger">Шитье</h3>
+          <p>От меня - Вам</p>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-4">
+          <i class="fa fa-birthday-cake"></i>
+          <br />
+          <iframe width="280" height="200" src="https://www.youtube.com/embed/videoseries?list=PLRRzL3ynAO6w8DcZb2P0XCJntQkOTOc2W" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+          <h3 class="text-danger">Кулинария</h3>
+          <p>Мой любимый рецепт</p>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-4">
+          <i class="fab fa-apple"></i>
+          <br />
+          <iframe width="280" height="200" src="https://www.youtube.com/embed/videoseries?list=PLRRzL3ynAO6x89QN78IZYNx2bWMqXw70p" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+          <h3 class="text-danger">Творчество</h3>
+          <p>Декупаж сосудов</p>
+        </div>
+      </div>
+      <div class="alert">
+        <hr />
+      </div>
+    </div>
+    <!-- статьи-->
+    <div class="container-fluid padding">
+      <div class="row padding">
+        <div class="col-lg-6">
+          <div id="text">
+            <h2 class="text-danger">Мои статьи:</h2>
+            <hr />
+            <p class="text-muted">
+              <br />
+              1111111111111111111111111111статья1111111111111111111111111111
+              11111
+              11111111111111111111111111111111111111111111111111111111111111
+              11111111111111111111111111111111111111111111111111111111111111
+              11111111111111111111111111111111111111111111111111111111111111
+              11111111111111111111111111111111111111111111111111111111111111
+              11111111111111111111111111111111111111111111111111111111111111
+            </p>
+            <div id="hide-me1" class="collapse in">
+              <br>
+              <p class="text-muted">
+                11111111111111111111111111111111111111111111111111111111111111
+                11111111111111111111111111111111111111111111111111111111111111
+                11111111111111111111111111111111111111111111111111111111111111
+                11111111111111111111111111111111111111111111111111111111111111
+
+                11111111111111111111111111111111111111111111111111111111111111
+                11111111111111111111111111111111111111111111111111111111111111
+                <br>
+                <br>
+                11111111111111111111111111111111111111111111111111111111111111
+                11111111111111111111111111111111111111111111111111111111111111
+                <br>
+              </p>
+            </div>
+          </div>
+          <button class="btn btn-info" data-toggle="collapse" data-target="#hide-me1">
+            Читать далее...</button>
+        </div>
+
+        <div class="col-lg-6">
+          <br>
+          <img src="img/1ст.jpg" class="img-fluid" />
+        </div>
+      </div>
+    </div>
+    <!-- хронология-->
+    <figure>
+      <div class="fixed-wrap">
+        <div id="fixed">
+        </div>
+      </div>
+    </figure>
+    <!-- реклама-->
+    <div class="text-center">
+      <button type="button" id="gifsBtn" class="btn btn-success text-center" data-toggle="collapse" data-target="#gifs">
+        скрыть рекламу</button>
+    </div>
+    <div id="gifs" class="collapse.in">
+      <div class="container-fluid padding">
+        <div class="row text-center">
+          <div class="col-sm-6 col-md-3">
+            <iframe src="https://giphy.com/embed/clx1I4xilXPYl5q2vO" width="480" height="248" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+            <p><a href="https://giphy.com/gifs/archivesontario-clx1I4xilXPYl5q2vO">via GIPHY</a></p>
+
+          </div>
+          <div class="col-sm-6 col-md-3">
+            <iframe src="https://giphy.com/embed/1AhPQQXfXf86hApYLl" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+            <p><a href="https://giphy.com/gifs/HallmarkChannel-hallmark-channel-wcth-1AhPQQXfXf86hApYLl">via GIPHY</a></p>
+
+          </div>
+          <div class="col-sm-6 col-md-3">
+            <iframe src="https://giphy.com/embed/ceTctNdypMCEE" width="480" height="354" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+            <p><a href="https://giphy.com/gifs/cat-black-and-white-amazing-ceTctNdypMCEE">via GIPHY</a></p>
+
+          </div>
+          <div class="col-sm-6 col-md-3">
+            <iframe src="https://giphy.com/embed/3oEjHUV43BkEPK6G08" width="480" height="356" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+            <p><a href="https://giphy.com/gifs/warnerarchive-classic-film-warner-archive-oshaughnessys-boy-3oEjHUV43BkEPK6G08">via GIPHY</a></p>
+
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- доп. продажи-->
+    <div class="container-fluid padding">
+      <div class="row alert text-center">
+        <div class="col-12">
+          <h1 class="display-4 text-danger">Инструменты и материалы</h1>
+        </div>
+        <hr />
+      </div>
+    </div>
+    <div class="container padding">
+      <div class="row padding">
+        <div class="col-md-4">
+          <div class="card">
+            <img src="https://ae01.alicdn.com/kf/HTB1laUJXHuWBuNjSszgq6z8jVXa8/2-Pinking.jpg_q50.jpg" class="card-img-top" />
+            <div class="card-body">
+              <h4 class="card-title">Товар №1</h4>
+              <p class="card-text">описание111</p>
+              <a href="#" class="btn btn-warning">Посмотреть</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img src="https://78.img.avito.st/640x480/4410882078.jpg" class="card-img-top" />
+            <div class="card-body">
+              <h4 class="card-title">Товар №2</h4>
+              <p class="card-text">описание222</p>
+              <a href="#" class="btn btn-warning">Посмотреть</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img src="https://31.img.avito.st/640x480/535790031.jpg" class="card-img-top" />
+            <div class="card-body">
+              <h4 class="card-title">Товар №3</h4>
+              <p class="card-text">описание333</p>
+              <a href="#" class="btn btn-warning">Посмотреть</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- контакты-->
+    <footer id="contacts" class="container-fluid">
+      <div class="countainer-fluid">
+        <div class="row padding text-center">
+          <div class="col-12">
+            <h2 class="text-danger">Мои аккаунты:</h2>
+          </div>
+          <div class="col-12 social padding">
+            <a href="https://www.instagram.com/olyalya_sew/"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.youtube.com/user/olperm"><i class="fab fa-youtube"></i></a>
+            <a href="https://www.facebook.com/profile.php?id=100032897610134&fref=pb&hc_location=friends_tab"><i class="fab fa-facebook"></i></a>
+            <a href="https://vk.com/id318158920"><i class="fab fa-vk"></i></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+</body>
+
+</html>
